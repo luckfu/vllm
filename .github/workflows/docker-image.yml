@@ -53,5 +53,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           # 给清单打上多个标签
           tags: |
-            luckfu/vllm-rocm:${{ steps.date.outputs.today }}
             luckfu/vllm-rocm:latest
